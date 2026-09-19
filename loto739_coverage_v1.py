@@ -9,9 +9,9 @@ from functools import lru_cache
 
 ALL = (1 << 10) - 1
 TOTAL = math.comb(39, 7)
-DEFAULT_CSV = "/Users/4c/Desktop/GHQ/data/loto7_4688_k75.csv"
-# DEFAULT_CSV = "/Users/4c/Desktop/GHQ/data/loto7_4688_k75_loto_2966.csv"
-# DEFAULT_CSV = "/Users/4c/Desktop/GHQ/data/loto7_4688_k75_loto_plus_1722.csv"
+DEFAULT_CSV = "/data/loto7_4688_k75.csv"
+# DEFAULT_CSV = "/data/loto7_4688_k75_loto_2966.csv"
+# DEFAULT_CSV = "/data/loto7_4688_k75_loto_plus_1722.csv"
 
 
 def mask(numbers):
@@ -369,7 +369,7 @@ Teorijski prosek celog ciklusa: 3.5754 kola
 Filter cifara: obavezne=-, zabranjene=-
 Tacno 15,380,937 sedmorki (100.0000% svih sedmorki).
 
-NEXT: 04 07 10 15 26 35 37
+NEXT: 04 x 10 y 26 z 37
 Nedostaju posle NEXT: -
 Obrazac cifara NEXT: 01234567 | Sedmorki s tim obrascem: 273,450
 Pravilo: najbrojniji prelaz, najbrojniji obrazac, srednja sedmorka.
@@ -406,7 +406,7 @@ Teorijski prosek celog ciklusa: 3.5754 kola
 Filter cifara: obavezne=-, zabranjene=-
 Tacno 15,380,937 sedmorki (100.0000% svih sedmorki).
 
-NEXT: 04 07 10 15 26 35 37
+NEXT: 04 x 10 y 26 z 37
 Nedostaju posle NEXT: -
 Obrazac cifara NEXT: 01234567 | Sedmorki s tim obrascem: 273,450
 Pravilo: najbrojniji prelaz, najbrojniji obrazac, srednja sedmorka.
@@ -447,7 +447,7 @@ Teorijski prosek celog ciklusa: 3.5754 kola
 Filter cifara: obavezne=-, zabranjene=-
 Tacno 15,380,937 sedmorki (100.0000% svih sedmorki).
 
-NEXT: 05 09 10 16 27 36 39
+NEXT: 05 x 10 y 27 z 39
 Nedostaju posle NEXT: 4
 Obrazac cifara NEXT: 01235679 | Sedmorki s tim obrascem: 273,450
 Pravilo: najbrojniji prelaz, najbrojniji obrazac, srednja sedmorka.
